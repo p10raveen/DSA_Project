@@ -1,0 +1,29 @@
+1. Example1
+Consider the leftmost and righmost appearances of some value in an array. We'll say that the "span" is the number of elements between the two inclusive. A single value has a span of 1. Returns the largest span found in the given array. (Efficiency is not a priority.)
+maxSpan([1, 2, 1, 1, 3]) → 4maxSpan([1, 4, 2, 1, 4, 1, 4]) → 6maxSpan([1, 4, 2, 1, 4, 4, 4]) → 6
+
+2. Example2
+Given a non-empty array, return true if there is a place to split the array so that the sum of the numbers on one side is equal to the sum of the numbers on the other side.
+canBalance([1, 1, 1, 2, 1]) → true
+canBalance([2, 1, 1, 2, 1]) → false
+canBalance([10, 10]) → true
+
+3. Example3
+Most Frequent Digit – You need to find which digit occurs most number of times across the given input array. If more than a digit occurs the same number of most times, then the highest of those digits should be the result.
+MostFrequentDigit([123, 234, 345, 673]) → 3
+MostFrequentDigit([123, 456, 345, 5043]) → 5
+MostFrequentDigit([1023, 7624, 2046, 1052]) → 2
+MostFrequentDigit([1023, 456, 345, 1002]) → 2
+
+4. Example4
+A certain visitor decides to travel a different path as follows: 
+1. He first travels southwards till no further south places are available.
+2. He then moves only 1 place eastwards.
+3. He starts to move again towards north till any further north moves are available. 
+This continues till all the places are covered. 
+
+For example, the monuments are named as follows:
+1  2  3
+4  5  6
+7  8  9                            
+ Path followed by traveler: 1->4->7->8->5->2->3->6->9
