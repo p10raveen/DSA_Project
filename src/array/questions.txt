@@ -27,3 +27,25 @@ For example, the monuments are named as follows:
 4  5  6
 7  8  9                            
  Path followed by traveler: 1->4->7->8->5->2->3->6->9
+ 
+
+Stack Example 1: Balance Brackets
+Input: [({})]
+output: YES
+
+Input: [((})]
+output: NO
+
+Stack Example 2: Infix to Postfix
+Input: A + B / ( C * D )
+output: ABCD*/+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
